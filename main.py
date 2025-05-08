@@ -60,5 +60,4 @@ for filepath in filepaths:
     pdf.cell(w=25, h=8, txt=f"PythonHow")
     pdf.image("pythonhow.png", w=10)
 
-
     pdf.output(f"PDFs/{filename}.pdf")
